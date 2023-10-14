@@ -52,7 +52,7 @@ Users should be able to:
 - tranform: translate(-50%, -50%);
 - @media only screen and (...)
 - we have to deal with latest and the nearest parent instead the furthest to position an element using flexbox layout
-- height affect on the places and the positions of each element in container
+- height affect on the places and the positions of each element in a container
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
