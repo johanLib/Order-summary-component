@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --paleblue: hsl(225, 100%, 94%);
+    --brightblue: hsl(245, 75%, 52%);
+    --verypaleblue: hsl(225, 100%, 98%);
+    --desaturatedblue: hsl(224, 23%, 55%);
+    --darkblue: hsl(223, 47%, 23%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 47%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--paleblue);
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDQwIiBoZWlnaHQ9IjQzNyI+PHBhdGggZmlsbD0iI0Q2RTFGRiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMCAzNDkuOTc0YzIxOC41NTggMTE2LjAzNSA0NjAuMDUgMTE2LjAzNSA3MjQuNDc1IDBzNTAyLjkzMy0xMTYuMDM1IDcxNS41MjUgMFYwSDB2MzQ5Ljk3NHoiLz48L3N2Zz4=);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+  display: grid;
+  place-items: center;
+  height: 48rem;
+}
+
+.subscription-card {
+  display: grid;
+  max-width: 28.1rem;
+  height: 44rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  background-color: var(--white);
+}
+
+.Order-paragraph {
+  display: grid;
+  padding: 2.5rem 3rem 1.2rem;
+  gap: 1rem;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 3rem;
+  background-color: var(--verypaleblue);
+  padding: 1.7rem 1.4rem;
+  border-radius: 1rem;
+}
+
+.purchase-options {
+  display: grid;
+  gap: 1rem;
+  padding: 4rem 3rem;
+  text-align: center;
+}
+
+a.change {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+a.change:hover {
+  text-decoration: none;
+}
+
+.flex-item-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.annual-plan {
+  margin-left: 1.2rem;
+  display: grid;
+  gap: 0.3rem;
+}
+
+.purchase-options {
+  display: grid;
+  gap: 2.08rem;
+  padding: 1.95rem;
+}
+
+.payment {
+  background-color: hsl(245, 75%, 52%);
+  text-decoration: none;
+  color: white;
+  padding: 0.88rem;
+  border-radius: 0.75rem;
+  font-weight: 700;
+  margin-inline: 1.1rem;
+  box-shadow: 0 1rem 1.5rem 0.4rem hsla(245, 75%, 76%, 0.5);
+}
+
+.payment:hover {
+  opacity: 0.7;
+  transition: .4s ease;
+}
+
+.cancel {
+  text-decoration: none;
+  color: var(--desaturatedblue);
+  font-weight: 900;
+  font-size: 0.95rem;
+}
+
+.cancel:hover {
+  color: var(--darkblue);
+}
